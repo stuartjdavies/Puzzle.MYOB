@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Puzzle.MYOB", "Puzzle.MYOB\Puzzle.MYOB.fsproj", "{0A04E116-8223-4CA0-8F50-FF5D3FAFFFF1}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Puzzle.MYOB.Tests", "Puzzle.MYOB.Tests\Puzzle.MYOB.Tests.fsproj", "{9396C7A6-B1D3-484A-806B-4E7DF5841133}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{0721DA6D-E67C-4FA8-AB13-710E365DEDB2}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Puzzle.MYOB.CSharp", "Puzzle.MYOB.CSharp\Puzzle.MYOB.CSharp.csproj", "{C9254B00-D513-4191-B888-D26C89D3BF9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A04E116-8223-4CA0-8F50-FF5D3FAFFFF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A04E116-8223-4CA0-8F50-FF5D3FAFFFF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A04E116-8223-4CA0-8F50-FF5D3FAFFFF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A04E116-8223-4CA0-8F50-FF5D3FAFFFF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9396C7A6-B1D3-484A-806B-4E7DF5841133}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9396C7A6-B1D3-484A-806B-4E7DF5841133}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9396C7A6-B1D3-484A-806B-4E7DF5841133}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9396C7A6-B1D3-484A-806B-4E7DF5841133}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9254B00-D513-4191-B888-D26C89D3BF9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9254B00-D513-4191-B888-D26C89D3BF9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9254B00-D513-4191-B888-D26C89D3BF9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9254B00-D513-4191-B888-D26C89D3BF9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
